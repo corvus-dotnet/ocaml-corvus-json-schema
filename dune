@@ -1,0 +1,6 @@
+; The package's source is beside this file, in corvus-json-schema (see the Dockerfile), and dune builds it with the
+; harness.
+
+(executable
+ (name bowtie_corvus_json_schema)
+ (libraries corvus-json-schema yojson))
