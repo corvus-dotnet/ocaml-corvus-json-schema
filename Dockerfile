@@ -1,6 +1,6 @@
 # The package's source, as released (src-ml/corvus-json-schema in Corvus.JsonSchema, published to
 # corvus-dotnet/corvus-json-schema-ocaml). Its version is this tag, which Dependabot keeps up to date.
-FROM ghcr.io/corvus-dotnet/corvus-json-schema-ocaml:0.1.1 AS corvus
+FROM ghcr.io/corvus-dotnet/corvus-json-schema-ocaml:0.1.3 AS corvus
 
 FROM alpine:3.24 AS build
 RUN apk add --no-cache ocaml ocaml-compiler-libs dune ocaml-yojson-dev musl-dev
